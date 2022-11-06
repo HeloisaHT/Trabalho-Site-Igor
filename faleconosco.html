@@ -32,6 +32,35 @@
     <p>@heloflix_series</p>
     <p>Vai ser um prazer falar com você!</p>
     <br>
+    <form>
+        <fieldset>
+            <legend>Faça sua identificação para nos conhecermos melhor: </legend>
+            <p><label for="idname">Seu nome:</label> <input type="text" name="nName" id="idname" size="40" placeholder="Nome completo"></p>
+            <p><label for="idSenha">Senha:</label> <input type="password" name="nSenha" id="idSenha"></p>
+            <p><label for="idEmail">E-mail:</label> <input type="email" name="email" id="idEmail"></p>
+            <p><label for="iddataNascimento">Data de nascimento:</label> <input type="date" name="nNascimento" id="iddataNascimento"></p>
+        </fieldset>
+        <fieldset>
+            <legend>nos ajude a melhorar dando a sua opinião:</legend>
+            <p><label for="idNota">Quanto você gosta do nosso site:</label> <input type="range"min= "0" max="10" name="nNota" id="idNota"></p>
+            <p><label for="idSerie">Das séries citadas em nosso site, quantas vc ja assistiu ou ouviu falar?:</label><input type="number" min= "0"  name="nSerie" id="idSerie"></p>
+            <p><label for="idgenero">Qual genêro de série você gostaria de ver mais aqui no HFLIX?:</label></p>
+            <select name="ngenero" id="idgenero">
+                <option value="romance">Romance</option>
+                <option value="acao">ação</option>
+                <option value="comedia">comédia</option>
+                <option value="fantasia">fantasia</option>
+                <option value="ficcao">ficção cientifica</option>
+                <option value="terror">terror</option>
+             </select>
+             <p><label for="plataforma">Qual plataforma de séries você prefere:</label></p>
+                <input type="radio" name="plataforma" id="idNetflix"><label for="idNetflix">Netflix</label>
+                <input type="radio" name="plataforma" id="idAmazon"><label for="idAmazon">Amazon Video</label>
+                <input type="radio" name="plataforma" id="idDisney"><label for="idDisney">Disney Plus</label>
+                <input type="radio" name="plataforma" id="idglobo"><label for="idglobo">Globo Play</label>
+             
+        </fieldset>
+    </form>
 
 </body>
 
